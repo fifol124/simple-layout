@@ -1,0 +1,79 @@
+@font-face {
+	font-family: 'VT323';
+	src: url('VT323-Regular.eot');
+	src: local('VT323 Regular'), local('VT323-Regular'),
+		url('VT323-Regular.eot?#iefix') format('embedded-opentype'),
+		url('VT323-Regular.woff2') format('woff2'),
+		url('VT323-Regular.woff') format('woff'),
+		url('VT323-Regular.ttf') format('truetype'),
+		url('VT323-Regular.svg#VT323-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: 0;
+}
+
+body{
+  font-family: VT323, Arial,sans-serif;
+}
+
+.main-width{
+  width: 800px;
+  margin: 0 auto;
+  border: 1px solid lightgreen;
+}
+
+.main-width::after{
+  clear: both;
+  content: "";
+  display: block;
+}
+
+/*styles for header*/
+
+header{
+  width: 100%;
+  background-color: grey;
+  font-size: 25px;
+}
+
+#header-logo{
+  float: left;
+}
+
+#header-menu{
+  float: right;
+}
+
+#header-menu li{
+  display: inline-block;
+}
+
+/*Slider styles*/
+
+.slider{
+  background-color: beige;
+  text-align: center;
+}
+
+.button{
+  background-color: grey;
+  width: 100px;
+  margin: 10px auto;
+  border-radius: 4px;
+  box-shadow: 0px 0px 3px #DD98AF;
+}
+
+.button:hover{
+  background-color: #DD98AF;
+}
+
+/*styles for sections*/
+
+.section-header{
+  text-align: center;
+}
