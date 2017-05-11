@@ -117,3 +117,13 @@ header{
 .description{
   background-color: beige;
 }
+
+.small-box{
+  display: inline-block;
+  width: 14%;
+  margin-left: 13px;
+}
+
+.our-clients{
+  background-color: gray;
+}
