@@ -127,3 +127,14 @@ header{
 .our-clients{
   background-color: gray;
 }
+
+.supersection{
+  background-color: beige;
+}
+
+/*styles to footer*/
+
+footer{
+  background-color: gray;
+  width: 100%;
+}
