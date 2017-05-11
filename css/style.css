@@ -45,6 +45,7 @@ header{
   float: left;
 }
 
+
 #header-menu{
   float: right;
 }
@@ -76,4 +77,25 @@ header{
 
 .section-header{
   text-align: center;
+}
+
+.products{
+  background-color: grey;
+}
+
+.medium-box{
+  width: 30%;
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.content-box{
+  background-color: white;
+  height: 100px;
+}
+
+.box{
+  display: inline-block;
+  width: 49%;
+  
 }
